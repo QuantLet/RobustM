@@ -8,4 +8,4 @@ Keywords:            'robust, gradient descent, portfolio, Markowitz, cumulative
 
 Author:              Yegor Klochkov, Alla Petukhina
 
-Datafile:            RussellSP100.Rdata
+Dataset:             RussellSP100.Rdata
