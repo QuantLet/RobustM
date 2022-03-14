@@ -53,7 +53,7 @@ ef1 = efficient.frontier(er1, covmat1, alpha.min=-2,
 pngname =  paste0("figures/Efficient_frontiers.png")
 png(file = pngname)
 plot(ef)
-plot(ef$sd, ef$er, plot.assets = F, col = "blue", pch = 16, xlab = "Standard Deviation", ylab="Mean")
+plot(ef$sd, ef$er, col = "blue", pch = 16, xlab = "Standard Deviation", ylab="Mean")
 points(ef1$sd,  ef$er, col = "red", pch = 16)
 points(tan.port1$sd, tan.port1$er, col = "magenta", pch = 16, cex = 2)
 points(tan.port$sd, tan.port$er, col = "green", pch = 16, cex = 2)
